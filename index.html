@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timpani</title>
+  </head>
+
+  <body>
+    <h1>Timpani Player</h1>
+    <button>
+      <span>Play / Stop</span>
+    </button>
+
+    <label for="bpm">BPM:</label>
+    <input
+      type="number"
+      id="bpm"
+      name="bpm"
+      min="0"
+      max="6600"
+      value="60"
+      step="5"
+    />
+    <audio src="/timpani.mp3"></audio>
+    <script src="/main.js"></script>
+  </body>
+</html>
